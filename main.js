@@ -36,6 +36,10 @@ window.addEventListener("load", () => {
     form.addEventListener("submit", (event) => {
         event.preventDefault();
 
+        if(!answer_A.checked && !answer_B.checked) {
+            return;
+        }
+
         $.ajax({
             url: provided_form,
             type: "POST",

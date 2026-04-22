@@ -76,6 +76,8 @@ input {
     margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    -webkit-text-fill-color:#000;
+    color: black;
 }
 
 #submit:hover {
